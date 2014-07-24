@@ -1,0 +1,145 @@
+8 config
+                Map:
+                        MapTaskMax	=2
+
+                        RecordPer	=0.05	
+                        MapHeapSize 	=ReduceHeapSize
+
+                        SplitSize
+                        SortMB
+                        SortPer		=0.8
+
+                Reduce:
+                        inMemMergeThreshold=1000
+                        ShuffleInputPer	=0.7
+                        OutputCompress=false
+
+                        RedInputPer
+                        ShuffleMergePer
+                        ReduceSlowStart
+
+                        RedTaskNum
+                        JVMReuse	=1
+                        RedHeapSize	=MapHeapSIze
+                        RedTaskMax
+
+10 config
+                Map:
+                        MapTaskMax	=2
+
+                        RecordPer	=0.05	
+                        MapHeapSize 	=ReduceHeapSize
+
+                        SplitSize
+                        SortMB
+                        SortPer
+
+                Reduce:
+                        inMemMergeThreshold=1000
+                        ShuffleInputPer	=0.7
+                        OutputCompress
+
+                        RedInputPer
+                        ShuffleMergePer
+                        ReduceSlowStart
+
+                        RedTaskNum
+                        JVMReuse	=1
+                        RedHeapSize	=MapHeapSIze
+                        RedTaskMax
+
+12 config
+                Map:
+                        MapTaskMax	=2
+
+                        RecordPer
+                        MapHeapSize 	=ReduceHeapSize
+
+                        SplitSize
+                        SortMB
+                        SortPer
+
+                Reduce:
+                        inMemMergeThreshold=1000
+                        ShuffleInputPer
+                        OutputCompress
+
+                        RedInputPer
+                        ShuffleMergePer
+                        ReduceSlowStart
+
+                        RedTaskNum
+                        JVMReuse	=1
+                        RedHeapSize	=MapHeapSIze
+                        RedTaskMax
+
+
+14 config
+                Map:
+                        MapTaskMax
+
+                        RecordPer
+                        MapHeapSize 	=ReduceHeapSize
+
+                        SplitSize
+                        SortMB
+                        SortPer
+
+                Reduce:
+                        inMemMergeThreshold
+                        ShuffleInputPer
+                        OutputCompress
+
+                        RedInputPer
+                        ShuffleMergePer
+                        ReduceSlowStart
+
+                        RedTaskNum
+                        JVMReuse	=1
+                        RedHeapSize	=MapHeapSIze
+                        RedTaskMax
+
+
+
+
+16 config
+                Map:
+                        MapTaskMax
+
+                        RecordPer
+                        MapHeapSize
+
+                        SplitSize
+                        SortMB
+                        SortPer
+
+                Reduce:
+                        inMemMergeThreshold
+                        ShuffleInputPer
+                        OutputCompress
+
+                        RedInputPer
+                        ShuffleMergePer
+                        ReduceSlowStart
+
+                        RedTaskNum
+                        JVMReuse
+                        RedHeapSize
+                        RedTaskMax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

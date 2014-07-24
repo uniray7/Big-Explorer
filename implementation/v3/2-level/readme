@@ -1,0 +1,8 @@
+knn1: config_set => median,deviation of MapTasks & median,deviation of ReduceTask => Exection time
+
+knn2: config_set => distribution rate of MapTask & median,deviation of ReduceTask => Exection time
+
+
+#note: "distribution rate" max-min/10 as interval, make the distribution rate 
+
+
